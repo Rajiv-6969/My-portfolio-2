@@ -1,0 +1,53 @@
+h1 {
+    color: brown;
+    padding-left:30px
+}
+
+ .header *{
+    border: solid;
+}
+
+.header{
+    background-color:#5c24b8;
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.site-description{
+    display:flex;
+    flex-direction:column;
+    justify-content: first baseline;
+}
+a:link{
+    color:Cyan ;
+}
+a:visited{
+    color:Red;
+}
+
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    transform: translate(-50%,-50%);
+     opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover ing{
+    opacity:0.33;
+}
+
